@@ -68,7 +68,7 @@ a {
   color: black;
 }
 
-.nav > a:hover {
+nav > a:hover {
   text-decoration: underline;
   color: orangered;
   font-weight: bolder;
