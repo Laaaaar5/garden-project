@@ -1,0 +1,69 @@
+*,
+*::after,
+*::before {
+  font-family: "Courier New", Courier, monospace;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  margin: 0px;
+  background-color: rgb(218, 243, 218);
+}
+
+h1 {
+  font-size: 250%;
+}
+
+h2 {
+  background-image: linear-gradient(
+    45deg,
+    rgb(135, 193, 135) 5%,
+    rgb(117, 218, 117) 70%
+  );
+  border-radius: 50px;
+  width: 30%;
+  margin: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.header-main {
+  padding: 35px;
+  text-align: center;
+  background-image: linear-gradient(
+    45deg,
+    rgb(156, 217, 156) 5%,
+    limegreen 70%
+  );
+}
+
+.main {
+  padding: 35px;
+}
+
+.nav > a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav > a:hover {
+  text-decoration: underline;
+  color: orangered;
+  font-weight: bolder;
+}
+
+.nav > a + a {
+  margin: 20px;
+}
